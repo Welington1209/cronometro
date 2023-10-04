@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômtero</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,700;0,800;0,900;1,500&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Cronômetro</h1>
+    <div class="container">
+        <div class="time" id="minutos">00</div>
+        <div class="separador">:</div>
+        <div class="time" id="segundos">00</div>
+        <div class="separador">:</div>
+        <div class="time" id="milisegundos">000</div>
+    </div>
+
+    <div class="botoes">
+        <button class="btn" id="startBtn">Iniciar</button>
+        <button class="btn" id="pauseBtn">Pausar</button>
+        <button class="btn" id="resumeBtn">Continuar</button>
+        <button class="btn" id="resetBtn">Resetar</button>
+    </div>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
